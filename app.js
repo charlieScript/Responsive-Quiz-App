@@ -99,10 +99,6 @@ answers.addEventListener('click', (e) =>{
                 if (i.id === 'green') {
                     i.style.backgroundColor = 'green'
                     i.style.color = 'white'
-                } 
-                if (i.id === 'red') {
-                    i.style.backgroundColor = 'red'
-                    i.style.color = 'white'
                 }
                 i.disabled = true;
             })
